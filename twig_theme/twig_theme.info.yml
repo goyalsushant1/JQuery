@@ -1,0 +1,21 @@
+name: Twig Theme
+description: A practice theme developed to override the twigs
+core: 8.x
+base theme: false
+type: theme
+
+regions:
+  custom_header: Header
+  custom_primary_menu: Primary Menu
+  custom_secondary_menu: Secondary Menu
+  custom_breadcrumb: Breadcrumb
+  custom_highlighted: Highlighted
+  custom_help: Help
+  custom_sidebar_first: Sidebar First
+  custom_region: Custom Region
+  custom_content: Content
+  custom_sidebar_second: Sidebar Second
+  custom_footer: Footer
+
+libraries:
+  - twig_theme/global-styling

@@ -1,0 +1,20 @@
+global-styling:
+  css:
+    theme:
+      css/twig.css: {}
+  js:
+    https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.js: {type: external}
+    js/twig.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
+
+
+
+exercise-scripts:
+  js:
+    js/exercise.js: {}
+
+  dependencies:
+    - core/jquery
+    - core/drupalSettings
